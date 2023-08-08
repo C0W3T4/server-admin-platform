@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply m-0 p-0 box-border;
+}
+
+@media (max-width: 600px) {
+  html {
+    @apply text-xs;
+  }
+}
+
+@media (max-width: 900px) {
+  html {
+    @apply text-sm;
+  }
+}
+
+@media (min-width: 900px) {
+  html {
+    @apply text-base;
+  }
+}
+
+body {
+  @apply bg-theme-dark-paper text-theme-dark-text-primary font-sans h-full w-full;
+}
+
+.full-page {
+  @apply flex flex-col min-h-screen;
+}
+
+input, textarea, button {
+  @apply font-medium text-theme-dark-text-primary;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-semibold text-theme-dark-text-title;
+}
+
+h1 {
+  @apply text-5xl;
+}
+
+h2 {
+  @apply text-4xl;
+}
+
+h3 {
+  @apply text-3xl;
+}
+
+h4 {
+  @apply text-2xl;
+}
+
+h5 {
+  @apply text-xl;
+}
+
+h6 {
+  @apply text-lg;
+}
+
+button, [type='reset'], [type='submit'] {
+  @apply cursor-pointer bg-theme-dark-secondary-main;
+}
+
+.icon-container {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 4px;
+}

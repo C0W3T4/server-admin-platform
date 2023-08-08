@@ -1,0 +1,11 @@
+.form-login-container {
+  @apply flex flex-col flex-auto w-full;
+}
+
+.form-login-main {
+  @apply flex flex-col items-center;
+}
+
+.form-login-footer {
+  @apply mt-4 text-center;
+}

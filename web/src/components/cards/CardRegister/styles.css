@@ -1,0 +1,19 @@
+.card-register-container {
+  @apply w-[28rem] flex;
+}
+
+.card-register-wrapper {
+  @apply flex flex-col flex-auto items-center justify-between p-6 bg-theme-dark-level-2 rounded-2xl;
+}
+
+.card-register-header {
+  @apply flex flex-col items-center w-full mb-4;
+}
+
+.card-register-main {
+  @apply flex flex-col items-center w-full mb-4;
+}
+
+.card-register-footer {
+  @apply flex flex-col items-center w-full;
+}

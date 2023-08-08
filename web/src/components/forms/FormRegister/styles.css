@@ -1,0 +1,11 @@
+.form-register-container {
+  @apply flex flex-col flex-auto w-full;
+}
+
+.form-register-main {
+  @apply flex flex-col items-center;
+}
+
+.form-register-footer {
+  @apply mt-4 text-center;
+}
