@@ -61,7 +61,7 @@ const Transition = forwardRef(
     }
 
     return (
-      <Box ref={ref}>
+      <Box ref={ref} sx={sx}>
         {type === 'grow' && (
           <Grow {...others}>
             <Box sx={positionSX}>{children}</Box>

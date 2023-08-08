@@ -54,6 +54,14 @@ const NavItem = ({ item, level }: NavItemProps) => {
     itemTarget = '_blank'
   }
 
+  const NavItemLink = forwardRef<
+    HTMLAnchorElement,
+    RefAttributes<HTMLAnchorElement>
+  >((props, ref) => (
+    <Link ref={ref} {...props} to={item.url!} target={itemTarget} />
+  ))
+  NavItemLink.displayName = 'NavItemLink'
+
   let listItemProps: {
     component:
       | ForwardRefExoticComponent<RefAttributes<HTMLAnchorElement>>
@@ -61,9 +69,7 @@ const NavItem = ({ item, level }: NavItemProps) => {
     href?: string
     target?: LinkTarget
   } = {
-    component: forwardRef((props, ref) => (
-      <Link ref={ref} {...props} to={item.url!} target={itemTarget} />
-    )),
+    component: NavItemLink,
   }
 
   if (item?.external) {

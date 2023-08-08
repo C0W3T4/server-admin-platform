@@ -14,17 +14,16 @@ interface SubCardProps {
   className?: string
   contentClass?: string
   darkTitle?: boolean
-  secondary?: ReactNode | string | object
+  secondary?: ReactNode | string | null
   sx?: object
   contentSX?: object
-  title?: ReactNode | string | object
+  title?: ReactNode | string | null
 }
 
 const SubCard = forwardRef(
   (
     {
       children,
-      className,
       content,
       contentClass,
       darkTitle,
