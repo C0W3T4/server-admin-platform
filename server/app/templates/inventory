@@ -1,0 +1,6 @@
+{% for groups_hosts in hosts_by_group %}
+[{{ groups_hosts.group.name }}]
+{% for host in groups_hosts.hosts -%}
+{{ host.ipv4 }}
+{% endfor %}
+{%- endfor %}
