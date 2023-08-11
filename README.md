@@ -10,18 +10,36 @@ This project was developed using the following technologies:
 
 ### Web app
 
+- [TypeScript](https://www.typescriptlang.org/)
 - [React](https://react.dev/)
 - [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Material UI](https://mui.com/)
+- [Sass](https://sass-lang.com/)
+- [Redux](https://react-redux.js.org/)
+- [JWT Auth](https://jwt.io/)
+- [Internationalization](https://formatjs.io/)
+- [React Hook Form](https://react-hook-form.com/)
 - [Axios](https://axios-http.com/)
-- [TypeScript](https://www.typescriptlang.org/)
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [ESLint](https://eslint.org/)
 
 ### Server app
 
-- [FastAPI](https://fastapi.tiangolo.com/)
 - [Python](https://www.python.org/)
+- [FastAPI](https://fastapi.tiangolo.com/)
+- [Uvicorn](https://www.uvicorn.org/)
+- [Starlette](https://www.starlette.io/)
+- [JWT Auth](https://python-jose.readthedocs.io/en/latest/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [Psycopg](https://www.psycopg.org/)
+- [SQLAlchemy](https://www.sqlalchemy.org/)
+- [Alembic](https://alembic.sqlalchemy.org/en/latest/)
+- [Pydantic](https://pydantic.dev/)
+- [Paramiko](https://www.paramiko.org/)
+- [Crontab](https://crontab.guru/)
+- [Jinja](https://jinja.palletsprojects.com/en/latest/)
 
 ## 🚀 How to run
 
