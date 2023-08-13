@@ -15,14 +15,13 @@ This project was developed using the following technologies:
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Material UI](https://mui.com/)
-- [Sass](https://sass-lang.com/)
 - [Redux](https://react-redux.js.org/)
 - [JWT Auth](https://jwt.io/)
 - [Internationalization](https://formatjs.io/)
 - [React Hook Form](https://react-hook-form.com/)
 - [Axios](https://axios-http.com/)
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Sass](https://sass-lang.com/)
 - [ESLint](https://eslint.org/)
 
 ### Server app
