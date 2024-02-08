@@ -185,7 +185,7 @@ async def login(
     tower = tower_query.first()
     if not tower:
         raise HTTPException(
-            status_code=status.HTTP_404_NOT_FOUND, detail="Tower not found")
+            status_code=status.HTTP_404_NOT_FOUND, detail="Company not found")
 
     user_query = db.query(
         user_model.User
