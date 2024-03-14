@@ -38,7 +38,9 @@ This project was developed using the following technologies:
 - [Pydantic](https://pydantic.dev/)
 - [Paramiko](https://www.paramiko.org/)
 - [Crontab](https://crontab.guru/)
+- [Ansible](https://www.ansible.com/)
 - [Jinja](https://jinja.palletsprojects.com/en/latest/)
+- [SQL](https://www.sqltutorial.org/)
 
 ## 🚀 How to run
 
